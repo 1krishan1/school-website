@@ -286,7 +286,7 @@ color: black;
     display:flex;
     column-gap: 10px;
 }    
-#insideschool {
+.insideschool {
     text-align: center;
     background: -webkit-linear-gradient(#32A0DD, #80B66B);
     -webkit-background-clip: text;
