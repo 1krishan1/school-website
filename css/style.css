@@ -2,7 +2,12 @@ body{
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    line-height: 1.6;
+    background-color: #fff;
+    color: #333;
 }
+
+
 
 .menu{
 display: grid;
@@ -210,6 +215,69 @@ color: black;
 
 
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .about-section {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: auto;
+  }
+  .about-images {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .about-images img {
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+  }
+  .about-content {
+    flex: 1;
+  }
+  .about-content h3 {
+    color: #888;
+    margin-bottom: 10px;
+  }
+  .about-content h2 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #000;
+  }
+  .about-content h2 span {
+    color: #6b1ca5; /* Purple text */
+  }
+  .about-content p {
+    margin: 15px 0;
+    color: #444;
+  }
+  .read-more-btn {
+    display: inline-block;
+    background-color: #6b1ca5;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+  .read-more-btn:hover {
+    background-color: #4c1277;
+  }
+  
+
+
+
+
 
 
 
@@ -225,8 +293,8 @@ color: black;
     -webkit-text-fill-color: transparent;
     font-family: "Poppins", sans-serif;
     font-size: 28px;
-    font-weight: 700;
-}
+    font-weight: 700; 
+ }
 
 .pictures {
     display: flex;
@@ -277,16 +345,16 @@ color: black;
 }
 
 .photo1 {
-    padding-left: 200px;
+    padding-left: 208px;
     display: flex;
-    column-gap: 10px;
+    column-gap: 35px;
 
 }
 
 .photo2 {
-    padding-left: 200px;
+    padding-left: 208px;
     display: flex;
-    column-gap: 10px;
+    column-gap: 35px;
     padding-top: 10px;
 
 }
@@ -408,6 +476,8 @@ color: black;
 
 .act {
     font-weight: bolder;
+    text-transform: uppercase;
+    font-size: larger;
     text-align: center;
 }
 
