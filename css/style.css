@@ -56,6 +56,7 @@ list-style-type: none;
     padding-bottom: 5px;
     margin-top: -px;
     padding: 10px;
+    text-transform: uppercase;
 }
 
  .head1{
@@ -156,10 +157,10 @@ color: black;
 .bell {
     border-radius: 50%;
     background-color: white;
-    margin-left: 50px;
+    margin-left: 70px;
     margin-top: 10px;
     transition: transform 1s ease;
-    padding: 10px;
+    padding: 9px;
 }
 
 .bell1 {
@@ -289,8 +290,8 @@ color: black;
     text-align: center;
     background: -webkit-linear-gradient(#32A0DD, #80B66B);
     -webkit-background-clip: text;
-    margin: 1rem 0;
     -webkit-text-fill-color: transparent;
+    margin: 1rem 0;
     font-family: "Poppins", sans-serif;
     font-size: 28px;
     font-weight: 700; 
@@ -345,16 +346,16 @@ color: black;
 }
 
 .photo1 {
-    padding-left: 208px;
+    padding-left: 225px;
     display: flex;
-    column-gap: 35px;
+    column-gap: 10px;
 
 }
 
 .photo2 {
-    padding-left: 208px;
+    padding-left: 225px;
     display: flex;
-    column-gap: 35px;
+    column-gap: 10px;
     padding-top: 10px;
 
 }
